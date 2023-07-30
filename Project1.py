@@ -81,3 +81,13 @@ except ValueError as ve:
 
 print(repr(p2d_1))
 print(p2d_1)
+
+
+
+
+
+"""
+In SlottedStruct mettaclass I have implemented __new__ method for adding new classes from this mettaclass. In new method there are three methods: __init__ 
+for adding now  instances to the class, __eq__ to check equality of two ponts and __hash__ to generate a hash for each point. For DRY for each dimention 
+i created a new attribute and saved its value in the attrs.
+"""
